@@ -16,6 +16,8 @@ public class Main extends Application {
         primaryStage.setTitle("ZakiHila");
 
         WebView webView = new WebView();
+        webView.setMaxHeight(730);
+        webView.setPrefHeight(730);
 
         webView.getEngine().load("http://178.128.78.89:4000");
 
